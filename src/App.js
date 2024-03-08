@@ -7,13 +7,13 @@ import data from './data.json';
 function App() {
   return (
     <div className="App">
-      <Profile profile={data.profile} />
-      <div>
+      <div className="card">
+        <Profile profile={data.profile} />
         <main>
           <Achievements achievements={data.achievements} />
           <article>{data.bio}</article>
+          <Contact contact={data.contact} />
         </main>
-        <Contact contact={data.contact} />
       </div>
     </div>
   );

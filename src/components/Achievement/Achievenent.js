@@ -15,7 +15,6 @@ function Achievement({ icon, achievement }) {
 }
 
 function Achievements({ achievements }) {
-    console.log(achievements);
     return (
         <div className="achievement-list">
             <Achievement icon={experienceIcon} achievement={achievements.experience} />
