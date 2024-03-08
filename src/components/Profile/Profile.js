@@ -7,7 +7,7 @@ function Profile({ profile }) {
     return (
         <div className="profile">
             <div className='profile__details'>
-                <img className="profile__image" src={image || assetImage} alt={`${name} image`} />
+                <img className="profile__image" src={image || assetImage} alt={`${name}`} />
                 <div className='profile__context'>
                     <div className="profile__name">{name}</div>
                     <div className="profile__profession">{profession}</div>

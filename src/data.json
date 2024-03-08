@@ -9,18 +9,18 @@
         "email": "lilanog@gmail.com",
         "linkedin": "https://www.linkedin.com/in/l-nogueira/"
     },
-    "experience": [
-        {
+    "achievements": {
+        "experience": {
             "title": "9+ years",
             "description": "Scientist research in infectious disease, publish in Nature"
         },
-        {
+        "award": {
             "title": "Awards",
             "description": "Recipeint of the highly competitive FAPESP"
         },
-        {
+        "degree": {
             "title": "Ph.D in Animal Biology",
             "description": "UNESP, Brazil"
         }
-    ]
+    }
 }
